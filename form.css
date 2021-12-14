@@ -1,0 +1,28 @@
+.inline{
+    display: inline-flex;
+}
+input, select, textarea{
+    display: block;
+    margin: 0px;
+}
+
+
+form{
+    margin: 10px;
+    height: 200vh;
+   
+    margin-left: 100px;
+
+}
+body{
+    background-color: rgb(122, 193, 226);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWEDdbqnXiurGooSSTEOBacduYAeGQaDutwA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+    background-size: cover;
+}
+
+h3{
+    font-size: 30px;
+}

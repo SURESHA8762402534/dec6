@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+
+        <link rel="stylesheet" href="form.css">
+    </head>
+
+    
+<h2 class="inline" style="font-size: 40px; color: rgb(197, 49, 148); margin-left: 70px;">Admision form for Geeksstar</h2>
+<form>
+    <h3>Personal Info</h3>
+    <input type="text" class="inline" name="f_name" required placeholder="First Name" autocomplete="off">
+<input type="text" class="inline" name="L_name" placeholder="Last name">
+<br><br><input class="inline" type="email" name="mail" required placeholder="Email Id" autocomplete="off">
+<br><br><input type="tel" class="inline" name="phone" placeholder="Phone number" required pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"/>
+
+<br>
+<br>
+<input class="inline" type="date" name="date of birth"><br><br>
+
+<input class="inline" name="gender" type="radio">Male
+<input class="inline" name="gender" type="radio">Female
+<input class="inline" name="gender" type="radio">others
+<br>
+
+<br>
+<textarea class="inline" name="address" placeholder="Address" rows="4" cols="40" ></textarea><br>
+
+<br>
+<h3>Educational Info</h3>
+
+<select class="inline" name="degree">
+    <optgroup label="Bachelors">
+        <option selected disabled>select your degree</option>
+        <option>B E</option>
+        <option>B sc</option>
+        <option>B com</option>
+
+    </optgroup>
+   
+</select><br><br>
+ Institution   <input class="inline" type="text" name="college" placeholder="college name"><br><br>
+ Graduation year   <input class="inline" type="number" placeholder="year of graduation " min="2010" max="2022"><br><br>
+ Persentage / CGPA   <input class="inline" type="number" name="percentage" placeholder="percentage" min="0" max="100" ><br><br>
+
+Masters Degree
+<select class="inline" name="master">
+
+    <optgroup label="masters">
+        <option>not applicable</option>
+        <option>M Tech</option>
+        <option>M sc</option>
+                <option>M com</option>
+            </optgroup>
+</select>
+<br>
+<h3>course detailes</h3>
+
+<!--<table class="inline">
+    <tr>
+        <td><input class="inline" type="radio" name="course" value="frontend">frontend
+        </td>
+        <td><input class="inline" type="radio" name="course" value="backend">Backend</td>
+
+    </tr>
+    
+
+    <tr>
+        <td><input type="checkbox" class="inline" name="course-list" value="Java">Java
+        </td>
+        <td><input type="checkbox" class="inline" name="course-list" value="web fundamentals">Web fundamentals<br>
+        </td>
+    </tr>
+</table>-->
+<input class="inline" type="radio" value="Frontend">Frontend<br>
+<input class="inline" type="radio">Backend<br>
+<input class="inline" type="radio">Java<br>
+<input class="inline" type="radio">Web fundamentals
+
+<br>
+
+<br><input class="inline" type="file"><br>
+<hr><br><br>
+<div style="margin-left: 50px;">
+<input style="color: white; background-color: blue; font-size:20px; margin-right: 50px; " class="inline" type="submit" value="Apllay for admition">
+<input style="color: white; background-color: rgb(204, 81, 9); font-size:20px" class="inline" type="reset" value="Reset"> 
+</div>
+</form>
+    </body>
+</html>
